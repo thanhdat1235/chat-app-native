@@ -47,7 +47,7 @@ const BottomTabNavigation = () => {
         options={{
           tabBarIcon: ({ focused }) => (
             <Image
-              source={focused ? icons.internet : icons.bubbleChatOutline}
+              source={focused ? icons.bubbleChat : icons.bubbleChatOutline}
               resizeMode="contain"
               style={{
                 width: 24,
